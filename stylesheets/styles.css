@@ -1,7 +1,6 @@
 /*Body*/
 body {
   background-color: #2C0A51;
-  overflow-x: hidden;
 }
 
 /*Header*/
@@ -36,13 +35,10 @@ header div {
   text-align: center;
 }
 
-a span {
-
-}
-
 /*Main*/
 main {
   padding-top: 60px;
+  overflow-x: hidden;
 }
 
 .div-background-img {
