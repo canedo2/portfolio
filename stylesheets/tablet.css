@@ -1,4 +1,6 @@
-@media (max-height: 1024px) and (orientation: portrait) {
+/* @media (max-height: 1024px) and (orientation: portrait) { */
+@media (orientation: portrait)
+{
   html{
     font-size: 12px;
   }
@@ -17,5 +19,21 @@
   .project .mac {
     top: calc((50vh - 30px) * 0.25);
     height: calc((50vh - 30px) * 0.5);
+  }
+}
+
+@media (min-width: 1150px) and (orientation: landscape)
+{
+  .project .mac {
+    top: calc((100vh - 60px) * 0.3);
+    height: calc((100vh - 60px) * 0.4);
+  }
+}
+
+@media (min-width: 800px) and (orientation: landscape)
+{
+  .project .mac {
+    top: calc((100vh - 60px) * 0.3);
+    height: calc((100vh - 60px) * 0.4);
   }
 }
