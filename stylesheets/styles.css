@@ -1,0 +1,157 @@
+/*Body*/
+body {
+  background-color: #2C0A51;
+  overflow-x: hidden;
+}
+
+/*Header*/
+header {
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  position:fixed;
+  z-index: 1;
+}
+
+header a img {
+  height: 32px;
+  margin-bottom: 4px;
+}
+
+header a span {
+  color: white;
+  font-family: Heebo, sans-serif;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+header a:hover {
+  color: white;
+}
+
+header div {
+  width: 50%;
+  float:right;
+  margin-top: 16px;
+  text-align: center;
+}
+
+a span {
+
+}
+
+/*Main*/
+main {
+  padding-top: 60px;
+}
+
+.div-background-img {
+  background-image: url(../assets/yo.jpg);
+  background-position: center;
+  background-size: cover;
+  height: calc(100vh - 60px);
+}
+
+.div-background-color {
+  background-color: #2C0A51;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.div-background-color .container, .div-background-color .container .row{
+  height: 100%;
+  color:white;
+  text-align: left;
+}
+
+h1 {
+  font-size: 7rem;
+  font-family: Quicksand, sans-serif;
+  font-weight: 500;
+  margin-bottom: 40px;
+  margin-right: -8px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: Quicksand, sans-serif;
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+/*Projects*/
+
+.container.project{
+  height: calc(100vh - 60px);
+}
+.row {
+  height: 100%;
+  position: relative;
+}
+.col-10 {
+  height: 70%;
+  background-color: white;
+  border-radius: 8px;
+}
+
+
+/*Mindlence*/
+
+.card {
+  padding: 48px;
+  color: white;
+}
+
+.mindlence-card {
+  background-color: #463599;
+}
+
+.abc-market-card {
+  background-color: #EB574C;
+}
+
+.me-card {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.card h3 {
+  font-weight: 500;
+  font-family: Heebo, sans-serif;
+  font-size: 3rem;
+}
+
+.card a {
+  color: white;
+  font-family: Heebo, sans-serif;
+  font-weight: 500;
+  margin-left: 8px;
+  margin-left: 2px;
+}
+
+.card p {
+  font-size: 1.5rem;
+  font-family: Quicksand, sans-serif;
+  font-weight: 300;
+  padding-right: 35%;
+  margin-left: 2px;
+}
+
+.me-card p {
+  padding-right: 0px;
+}
+
+.project .iPhone {
+  float: right;
+  position: absolute;
+  right: 3vw;
+  top: calc((100vh - 60px) * 0.20);
+  height: calc((100vh - 60px) * 0.6);
+}
+
+.project .mac {
+  float: right;
+  position: absolute;
+  right: -16vw;
+  top: calc((100vh - 60px) * 0.25);
+  height: calc((100vh - 60px) * 0.5);
+}

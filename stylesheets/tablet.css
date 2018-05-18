@@ -1,0 +1,21 @@
+@media (max-height: 1024px) and (orientation: portrait) {
+  html{
+    font-size: 12px;
+  }
+  .div-background-img {
+    height: calc(50vh - 30px);
+  }
+  .container.project {
+    height: calc(50vh - 30px);
+  }
+
+  .project .iPhone {
+    top: calc((50vh - 30px) * 0.20);
+    height: calc((50vh - 30px) * 0.6);
+  }
+
+  .project .mac {
+    top: calc((50vh - 30px) * 0.25);
+    height: calc((50vh - 30px) * 0.5);
+  }
+}
