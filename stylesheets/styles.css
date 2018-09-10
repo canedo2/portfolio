@@ -39,7 +39,7 @@ main {
 }
 
 .div-background-img {
-  background-image: url(../assets/background.png);
+  background-image: url(../assets/background-image.png);
   background-position: center;
   background-size: cover;
   height: 100vh;
