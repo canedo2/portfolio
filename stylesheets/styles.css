@@ -131,3 +131,29 @@ h3 {
   margin-right: 2rem;
   float:right;
 }
+
+/* Mindlence */
+
+.mindlence-date {
+  position: absolute;
+  top: 70%;
+  left: 78%;
+  transform: rotate(290deg);
+}
+
+.mindlence-image {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+/* ABC-market */
+
+.abc-date {
+  margin-left: 1.2rem;
+}
+
+.abc-image {
+  width: 100%;
+  margin-right: 2rem;
+  float:right;
+}
