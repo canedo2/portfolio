@@ -5,35 +5,9 @@
     font-size: 12px;
   }
   .div-background-img {
-    height: calc(50vh - 30px);
+    height: 50vh;
   }
   .container.project {
-    height: calc(50vh - 30px);
-  }
-
-  .project .iPhone {
-    top: calc((50vh - 30px) * 0.20);
-    height: calc((50vh - 30px) * 0.6);
-  }
-
-  .project .mac {
-    top: calc((50vh - 30px) * 0.25);
-    height: calc((50vh - 30px) * 0.5);
-  }
-}
-
-@media (min-width: 1150px) and (orientation: landscape)
-{
-  .project .mac {
-    top: calc((100vh - 60px) * 0.3);
-    height: calc((100vh - 60px) * 0.4);
-  }
-}
-
-@media (min-width: 800px) and (orientation: landscape)
-{
-  .project .mac {
-    top: calc((100vh - 60px) * 0.3);
-    height: calc((100vh - 60px) * 0.4);
+    height: 50vh;
   }
 }
