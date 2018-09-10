@@ -10,4 +10,8 @@
   .container.project {
     height: 50vh;
   }
+
+  header a span{
+    font-size: 1.5rem;
+  }
 }

@@ -4,6 +4,10 @@
     font-size: 7px;
   }
 
+  header a span{
+    font-size: 2rem;
+  }
+
 }
 
 @media (max-width: 400px) and (orientation: portrait)
@@ -12,12 +16,20 @@
     font-size: 6px;
   }
 
+  header a span{
+    font-size: 2rem;
+  }
+
 }
 
 @media (max-height: 450px) and (orientation: landscape)
 {
   html {
     font-size: 8px;
+  }
+
+  header a span{
+    font-size: 2rem;
   }
 
 }
