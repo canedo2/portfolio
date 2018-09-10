@@ -5,7 +5,7 @@ body {
 
 /*Header*/
 header {
-  height: 8rem;
+  height: 6rem;
   width: 100%;
   position:fixed;
   z-index: 1;
@@ -15,8 +15,8 @@ header a span {
   color: #56BD30;
   font-family: PTSans, sans-serif;
   font-weight: bold;
-  font-size: 1.5rem;
-  margin-right: 3rem;
+  font-size: 1rem;
+  margin-right: 2rem;
 }
 
 header a:hover {
@@ -29,8 +29,8 @@ header div {
 }
 
 header div div {
-  margin-top: 3rem;
-  margin-right: 4rem;
+  margin-top: 2rem;
+  margin-right: 3rem;
 }
 
 /*Main*/
@@ -150,10 +150,22 @@ h3 {
 
 .abc-date {
   margin-left: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .abc-image {
   width: 100%;
   margin-right: 2rem;
   float:right;
+}
+
+/* Me */
+
+.div-me {
+  background-color: #FFF4DB;
+}
+
+.me-image {
+  width: 100%;
+  margin-top: 3rem;
 }
