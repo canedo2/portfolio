@@ -1,154 +1,133 @@
 /*Body*/
 body {
-  background-color: #2C0A51;
+  background-color: #FFFFFF;
 }
 
 /*Header*/
 header {
-  height: 60px;
+  height: 8rem;
   width: 100%;
-  background-color: black;
   position:fixed;
   z-index: 1;
 }
 
-header a img {
-  height: 32px;
-  margin-bottom: 4px;
-}
-
 header a span {
-  color: white;
-  font-family: Heebo, sans-serif;
-  font-weight: 500;
-  margin-left: 8px;
+  color: #56BD30;
+  font-family: PTSans, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: 3rem;
 }
 
 header a:hover {
-  color: white;
+  color: #56BD30;
 }
 
 header div {
-  width: 50%;
   float:right;
-  margin-top: 16px;
   text-align: center;
+}
+
+header div div {
+  margin-top: 3rem;
+  margin-right: 4rem;
 }
 
 /*Main*/
 main {
-  padding-top: 60px;
   overflow-x: hidden;
 }
 
 .div-background-img {
-  background-image: url(../assets/yo.jpg);
+  background-image: url(../assets/background.png);
   background-position: center;
   background-size: cover;
-  height: calc(100vh - 60px);
+  height: 100vh;
+  /* calc(100vh - 60px); */
 }
 
-.div-background-color {
-  background-color: #2C0A51;
+.div-background-img .container, .div-background-img .container .row{
   height: 100%;
-  opacity: 0.8;
-}
-
-.div-background-color .container, .div-background-color .container .row{
-  height: 100%;
-  color:white;
-  text-align: left;
+  color:#F5FFD9;
+  text-align: center;
 }
 
 h1 {
-  font-size: 7rem;
-  font-family: Quicksand, sans-serif;
-  font-weight: 500;
-  margin-bottom: 40px;
-  margin-right: -8px;
+  font-size: 4rem;
+  font-family: PTSans, sans-serif;
+  font-weight: bold;
+  position: relative;
+  vertical-align: middle;
 }
 
-h2 {
-  font-size: 2rem;
-  font-family: Quicksand, sans-serif;
-  font-weight: 300;
-  margin-top: 40px;
+h1 small {
+  font-size: 3rem;
+}
+
+h2, h1 span {
+  font-family: Raleway, sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+}
+
+h3 {
+  font-family: Raleway, sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
 }
 
 /*Projects*/
-
-.container.project{
-  height: calc(100vh - 60px);
+.container.project {
+  height: 100vh;
 }
+
 .row {
   height: 100%;
   position: relative;
 }
-.col-10 {
-  height: 70%;
-  background-color: white;
-  border-radius: 8px;
-}
-
-
-/*Mindlence*/
 
 .card {
-  padding: 32px 48px;
-  color: white;
+  color: black;
 }
 
-.mindlence-card {
-  background-color: #463599;
-}
-
-.abc-market-card {
-  background-color: #EB574C;
-}
-
-.me-card {
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-.card h3 {
-  font-weight: 500;
-  font-family: Heebo, sans-serif;
-  font-size: 3rem;
-}
-
-.card a {
-  font-size: 1.5rem;
-  color: white;
-  font-family: Heebo, sans-serif;
-  font-weight: 500;
-  margin-left: 8px;
-  margin-left: 2px;
+.card h2 {
+  color: black;
+  margin-bottom: 1.75rem;
 }
 
 .card p {
   font-size: 1.5rem;
-  font-family: Quicksand, sans-serif;
-  font-weight: 300;
-  padding-right: 35%;
-  margin-left: 2px;
+  font-family: PT Sans, sans-serif;
+  font-weight: 400;
+  margin-left: 0.125rem;
+  margin-bottom: 4.5rem;
 }
 
-.me-card p {
-  padding-right: 0px;
+.card a {
+  font-size: 1.5rem;
+  font-family: PT Sans, sans-serif;
+  font-weight: bold;
+  background-color: #56BD30;
+  margin-top: calc(0.75rem + 4.5rem);
+  border-radius: 0.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: 0.125rem;
+  color: white;
 }
 
-.project .iPhone {
-  float: right;
-  position: absolute;
-  right: 3vw;
-  top: calc((100vh - 60px) * 0.20);
-  height: calc((100vh - 60px) * 0.6);
+/* Roomoto */
+
+.roomoto-date {
+  position: relative;
+  right: 47%;
+  transform: rotate(270deg);
 }
 
-.project .mac {
-  float: right;
-  position: absolute;
-  right: -16vw;
-  top: calc((100vh - 60px) * 0.25);
-  height: calc((100vh - 60px) * 0.5);
+.roomoto-image{
+  width: 85%;
+  margin-right: 2rem;
+  float:right;
 }
